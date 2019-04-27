@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Week5</string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="scoreA" translatable="false">0</string>
+    <string name="scoreB" translatable="false">0</string>
+    <string name="btn_add3">+3 POINTS</string>
+    <string name="btn_add2">+2 POINTS</string>
+    <string name="btn_add1">+1 POINT</string>
+    <string name="btn_re">Reset</string>
+</resources>

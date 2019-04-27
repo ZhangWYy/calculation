@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Caculation">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/teamA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/teamA"
+                android:textSize="35sp"
+                tools:text="@string/teamA" />
+
+            <TextView
+                android:id="@+id/scoreA"
+                android:layout_width="match_parent"
+                android:layout_height="152dp"
+                android:gravity="center"
+                android:text="@string/scoreA"
+                android:textSize="50sp"
+                tools:text="@string/scoreA" />
+
+            <Button
+                android:id="@+id/add3A"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/btn_add3"
+                android:textSize="25sp"
+                tools:text="@string/btn_add3" />
+
+            <Button
+                android:id="@+id/add2A"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/btn_add2"
+                android:textSize="25sp"
+                tools:text="@string/btn_add2" />
+
+            <Button
+                android:id="@+id/add1A"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/btn_add1"
+                android:textSize="25sp"
+                tools:text="@string/btn_add1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/teamB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/teamB"
+                android:textSize="35sp"
+                tools:text="@string/teamB" />
+
+            <TextView
+                android:id="@+id/scoreB"
+                android:layout_width="match_parent"
+                android:layout_height="152dp"
+                android:gravity="center"
+                android:text="@string/scoreB"
+                android:textSize="50sp"
+                tools:text="@string/scoreB" />
+
+            <Button
+                android:id="@+id/add3B"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/btn_add3"
+                android:textSize="25sp"
+                tools:text="@string/btn_add3" />
+
+            <Button
+                android:id="@+id/add2B"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/btn_add2"
+                android:textSize="25sp"
+                tools:text="@string/btn_add2" />
+
+            <Button
+                android:id="@+id/add1B"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/btn_add1"
+                android:textSize="25sp"
+                tools:text="@string/btn_add1" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:text="@string/btn_re"
+        android:textSize="20sp"
+        tools:text="@string/btn_re" />
+
+</RelativeLayout>

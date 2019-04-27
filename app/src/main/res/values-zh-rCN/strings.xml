@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Week5</string>
+    <string name="teamA">A队</string>
+    <string name="teamB">B队</string>
+    <string name="btn_add3">+3分</string>
+    <string name="btn_add2">+2分</string>
+    <string name="btn_add1">+1分</string>
+    <string name="btn_re">重置</string>
+</resources>
